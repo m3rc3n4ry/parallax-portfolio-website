@@ -1,0 +1,145 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body, html{
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-family: "Gilroy", sans-serif;;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #666;
+}
+
+.pimg1, .pimg2, .pimg3 {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.80;
+  position: relative;
+  background-attachment: fixed;
+}
+
+.pimg1 {
+  background-image: url('../images/image1.jpeg');
+  min-height: 100%;
+}
+
+.pimg2 {
+  background-image: url('../images/image2.jpeg');
+  min-height: 40%;
+}
+
+.pimg3 {
+  background-image: url('../images/image3.jpeg');
+  min-height: 40%;
+}
+
+.section {
+  padding: 50px 80px;
+  text-align: center;
+}
+
+.section-light {
+  background-color: #f4f4f4;
+  color: #666;
+}
+
+.section-dark {
+  background-color: #282e34;
+  color: #ddd;
+}
+
+.ptext {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  letter-spacing: 8px;
+  font-size: 27px;
+  text-transform: uppercase;
+}
+
+.ptext .border {
+  background-color: #111;
+  color: #fff;
+  padding: 20px;
+}
+
+.ptext .border.trans {
+  background-color: transparent;
+}
+
+/* Landing page navigation styles */
+
+.nav {
+  font-size: 0.43em;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+a:link {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.6s;
+}
+
+a:visited {
+  color: #f4f4f4;
+}
+
+a:hover {
+  color: #fbb215;
+}
+
+a:active {
+  color: #f4f4f4;
+}
+
+/* Social Media icons */
+
+.fa-facebook-square, .fa-twitter, .fa-instagram, .fa-linkedin, .fa-github {
+  color: #000;
+  transition: 0.6s;  
+}
+
+.icon {
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+.fa-facebook-square:hover {
+  color: #4867aa;
+}
+
+.fa-twitter:hover {
+  color: #1da1f2;
+}
+
+.fa-instagram:hover {
+  color: #ed4956;
+}
+
+.fa-linkedin:hover {
+  color: #0077b5;
+}
+
+.fa-github:hover {
+  color: #239a3b;
+}
+
+/* Copyright footer style */
+
+.foot {
+  text-align: center;
+  font-size: 0.8em;
+  background-color: #282e34;
+  color: #f4f4f4;
+}
